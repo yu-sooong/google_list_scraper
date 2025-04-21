@@ -49,9 +49,7 @@ npx tsx src/main.ts --lat=24.1572 --lng=120.6634
 │   ├── main.ts                   # 主程式入口
 │   ├── types.ts                 # 型別定義 Place / NearbyPlace
 │   └── utils
-│       ├── ensurePlaceList.ts   # 取得地點清單與快取
-│       ├── getNearbyPlaces.ts   # 根據經緯度找最近的地點
-│       ├── getGoogleMapsUrl.ts  # 串接 Google Place API
+│       ├── placeHelper.ts        # 取得地點資訊、計算經緯度距離、解析整合回傳格式等
 │       └── parseGoogleListRes.ts # 解析 Google List 的非公開格式
 ├── places.json                  # 快取地點資料 (首次執行自動產生)
 ├── .env                         # 儲存 GOOGLE_MAPS_API_KEY
