@@ -1,0 +1,54 @@
+# ⚡ Node.js 相關
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# ⚡ TypeScript 編譯輸出
+dist/
+out/
+*.js
+*.js.map
+*.d.ts
+
+# ⚡ TypeScript 編譯快取
+.cache/
+tsconfig.tsbuildinfo
+
+# ⚡ 環境變數 & 憑證（重要❗）
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ⚡ ESLint / Prettier 相關
+.eslintcache
+.prettiercache
+
+# ⚡ Jest 測試結果
+coverage/
+junit.xml
+
+# ⚡ VSCode / WebStorm 設定
+.vscode/
+.idea/
+*.iml
+
+# ⚡ Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# ⚡ Docker / CI/CD
+docker-compose.override.yml
+*.log
+*.pid
+*.seed
+
+# ⚡ Mac / Linux / Windows 產生的無用檔案
+.DS_Store
+Thumbs.db
